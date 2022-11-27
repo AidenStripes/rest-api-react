@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\OEM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @next/navigation
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\tools\php81;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.4\bin;C:\Program Files\mvndaemon\mvnd-0.7.1-windows-amd64\bin;C:\Program Files\PostgreSQL\14\bin;C:\Users\OEM\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\OEM\scoop\shims;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\OEM\AppData\Roaming\nvm;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\OEM\AppData\Roaming\npm;C:\Users\OEM\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\tools\dart-sdk\bin;C:\Users\OEM\AppData\Roaming\Pub\Cache\bin;C:\Users\OEM\.dotnet\tools;C:\Users\OEM\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@next%2fnavigation: Not found
+      at Request.params.callback [as _callback] (C:\Users\OEM\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\OEM\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\OEM\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\OEM\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "app777",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "axios": "^1.2.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.24",
+      "@types/react-dom": "^18.0.8",
+      "@vitejs/plugin-react": "^2.2.0",
+      "vite": "^3.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
