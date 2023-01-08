@@ -1,3 +1,3 @@
 # RestAPIfrontendReact
 
-to run the app use a command yarn dev
+to run the app use commands yarn then yarn dev
