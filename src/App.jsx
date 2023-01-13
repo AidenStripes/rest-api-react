@@ -50,9 +50,9 @@ const client = axios.create({
       <h2>All Books</h2>
       <form onSubmit={handleSubmit}>
         <input className="input-field" type="text" name="author" placeholder="author" value={author}
-          onChange={(e) => setAuthor(e.target.value)}></input>
+          onChange={(e) => setAuthor(e.target.value)}></input><br />
         <input className="input-field" type="text" name="title" placeholder="title" value={title}
-          onChange={(e) => setTitle(e.target.value)}></input>
+          onChange={(e) => setTitle(e.target.value)}></input><br />
         <button className="btn btn-primary" type="submit">add a book</button>
       </form>
       {books.map((book) => {
