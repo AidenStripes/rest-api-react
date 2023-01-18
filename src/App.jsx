@@ -33,7 +33,8 @@ const client = axios.create({
   useEffect(() => {
     client.get().then((response) => {
         setBooks(response.data);
-      });
+    });
+    return() => {}
   }, []);
 
   const deleteBook = (id) => {
