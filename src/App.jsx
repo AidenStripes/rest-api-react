@@ -60,9 +60,9 @@ const client = axios.create({
         <div className="book-list" key={book.id}>
             <h2>{book.author}</h2>
             <p>{book.title}</p>
-            <div className="button">
-              <div className="delete-btn" onClick={() => deleteBook(book.id)}>Delete</div>
-            </div>
+            <p>
+              <button className="delete-btn" onClick={() => deleteBook(book.id)}>Delete</button>
+            </p>
           </div>
       );
     })}
