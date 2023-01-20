@@ -5,7 +5,7 @@ import axios from "axios";
 function App() {
   
 const client = axios.create({
-  baseURL: "http://localhost:8080/books" 
+  baseURL: "http://localhost:8080/api/v1/books" 
 });
   
   const [books, setBooks] = useState([]);
