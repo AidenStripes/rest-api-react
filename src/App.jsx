@@ -77,7 +77,6 @@ function App() {
               <CardMedia
                 sx={{ height: 140 }}
                 image={book.image}
-                title="green iguana"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
